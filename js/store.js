@@ -203,7 +203,7 @@
     // Close the menu after picking a link (same-page links like #look don't reload the page)
     $all('a', nav).forEach(function (a) { a.addEventListener('click', function () { setOpen(false); }); });
     document.addEventListener('keydown', function (e) { if (e.key === 'Escape') setOpen(false); });
-    window.addEventListener('resize', function () { if (window.innerWidth > 860) setOpen(false); });
+    window.addEventListener('resize', function () { if (window.innerWidth > 1100) setOpen(false); });
   }
 
   window.Beldi = {

@@ -174,7 +174,7 @@ button { cursor: pointer; }
 /* Story */
 .story { display: flex; flex-wrap: wrap; gap: 64px; align-items: center; }
 .story-media { flex: 1 1 420px; display: flex; justify-content: center; }
-.story-media img { width: 100%; max-width: 360px; }
+.story-media img { width: 100%; max-width: 360px; height: auto; }
 .story-copy { flex: 1 1 480px; display: flex; flex-direction: column; gap: 24px; }
 .values { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 24px; padding-top: 12px; border-top: 1px solid var(--line-strong); }
 .values h3 { font-family: var(--serif); font-weight: 400; font-size: 20px; margin: 16px 0 6px; }
@@ -270,5 +270,14 @@ body.cart-open .drawer-backdrop { opacity: 1; pointer-events: auto; }
 /* Toast */
 .toast { position: fixed; left: 50%; bottom: 28px; transform: translate(-50%, 20px); background: var(--ink); color: var(--ivory); padding: 14px 22px; font-size: 13px; letter-spacing: .08em; z-index: 70; opacity: 0; transition: opacity .25s, transform .25s; pointer-events: none; }
 .toast.show { opacity: 1; transform: translate(-50%, 0); }
+
+/* Phones: show the heading + text first in image/text sections, and tighten section spacing */
+@media (max-width: 860px) {
+  .look-copy, .story-copy { order: -1; }
+  .look, .story, .hero, .early { gap: 40px; }
+  .section { padding-top: 64px; padding-bottom: 64px; }
+  .look-media .arch { max-width: 360px; }
+  .story-media img { max-width: 240px; }
+}
 
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; scroll-behavior: auto !important; } }

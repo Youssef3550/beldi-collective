@@ -72,6 +72,20 @@
     if (el) el.scrollIntoView({ behavior: 'instant', block: 'start' });
   }
 
+  /* Coming from another page (index.html#look / #story): products, fonts and images load after the
+     browser's first jump and push the section down. Keep the section in place while the page
+     settles (max 4 s), unless the visitor starts scrolling themselves. */
+  if (location.hash && document.getElementById(location.hash.slice(1))) {
+    var root = document.documentElement;
+    root.style.scrollBehavior = 'auto';
+    var settle = function () { jumpToHash(); };
+    var ro = 'ResizeObserver' in window ? new ResizeObserver(settle) : null;
+    if (ro) ro.observe(document.body);
+    window.addEventListener('load', settle);
+    if (document.fonts && document.fonts.addEventListener) document.fonts.addEventListener('loadingdone', settle);
+    setTimeout(function () { if (ro) ro.disconnect(); root.style.scrollBehavior = ''; }, 4000);
+  }
+
   document.addEventListener('DOMContentLoaded', function () {
     if (!tick()) { var t = setInterval(function () { if (tick()) clearInterval(t); }, 1000); }
     B.loadProducts().then(function (products) {
@@ -79,10 +93,7 @@
       grid.innerHTML = '';
       products.slice(0, 4).forEach(function (p) { grid.appendChild(B.productCard(p)); });
       initLook(products);
-      // Coming from another page (index.html#look): the products above just pushed the section down,
-      // so jump to it again now that the layout is final.
       jumpToHash();
-      if (document.fonts && document.fonts.ready) document.fonts.ready.then(jumpToHash);
     }).catch(function (err) {
       document.getElementById('featured').innerHTML = '<p class="body">Products could not be loaded. If you opened this file directly, run it through a local server (see README).</p>';
       console.error(err);

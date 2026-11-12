@@ -1,0 +1,14 @@
+name = "beldi-api"
+main = "src/index.js"
+compatibility_date = "2026-11-01"
+
+[vars]
+# Your GitHub Pages site (scheme + host + repo path), e.g. https://yourname.github.io/beldi-collective/
+ALLOWED_ORIGIN = "https://YOURNAME.github.io/beldi-collective/"
+# Countries you ship to (Stripe shipping address form)
+SHIP_COUNTRIES = "BE,NL,LU,FR,DE"
+# "false" = orders arrive in Printful as drafts you confirm by hand. "true" = sent to production right away.
+PRINTFUL_AUTO_CONFIRM = "false"
+
+# Secrets: set these with `npx wrangler secret put <NAME>`, never in this file:
+#   PRINTFUL_TOKEN, STRIPE_SECRET_KEY, STRIPE_WEBHOOK_SECRET, PRINTFUL_STORE_ID (optional)

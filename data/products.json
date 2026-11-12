@@ -1,0 +1,708 @@
+{
+  "source": "demo",
+  "currency": "EUR",
+  "updatedAt": null,
+  "products": [
+    {
+      "id": "atlas-heavy-tee",
+      "slug": "atlas-heavy-tee",
+      "name": "Atlas Heavy Tee",
+      "category": "tops",
+      "tag": "Essential",
+      "description": "Heavyweight cotton tee with a relaxed, boxy fit and a small gold asterisk on the chest.",
+      "images": [
+        "assets/products/atlas-heavy-tee-espresso.svg",
+        "assets/products/atlas-heavy-tee-sand.svg",
+        "assets/products/atlas-heavy-tee-cream.svg"
+      ],
+      "variants": [
+        {
+          "id": "demo-atlas-heavy-tee-espresso-xs",
+          "size": "XS",
+          "color": "Espresso",
+          "colorHex": "#2C221E",
+          "price": "35.00",
+          "currency": "EUR",
+          "image": "assets/products/atlas-heavy-tee-espresso.svg",
+          "available": true
+        },
+        {
+          "id": "demo-atlas-heavy-tee-espresso-s",
+          "size": "S",
+          "color": "Espresso",
+          "colorHex": "#2C221E",
+          "price": "35.00",
+          "currency": "EUR",
+          "image": "assets/products/atlas-heavy-tee-espresso.svg",
+          "available": true
+        },
+        {
+          "id": "demo-atlas-heavy-tee-espresso-m",
+          "size": "M",
+          "color": "Espresso",
+          "colorHex": "#2C221E",
+          "price": "35.00",
+          "currency": "EUR",
+          "image": "assets/products/atlas-heavy-tee-espresso.svg",
+          "available": true
+        },
+        {
+          "id": "demo-atlas-heavy-tee-espresso-l",
+          "size": "L",
+          "color": "Espresso",
+          "colorHex": "#2C221E",
+          "price": "35.00",
+          "currency": "EUR",
+          "image": "assets/products/atlas-heavy-tee-espresso.svg",
+          "available": true
+        },
+        {
+          "id": "demo-atlas-heavy-tee-espresso-xl",
+          "size": "XL",
+          "color": "Espresso",
+          "colorHex": "#2C221E",
+          "price": "35.00",
+          "currency": "EUR",
+          "image": "assets/products/atlas-heavy-tee-espresso.svg",
+          "available": true
+        },
+        {
+          "id": "demo-atlas-heavy-tee-espresso-2xl",
+          "size": "2XL",
+          "color": "Espresso",
+          "colorHex": "#2C221E",
+          "price": "35.00",
+          "currency": "EUR",
+          "image": "assets/products/atlas-heavy-tee-espresso.svg",
+          "available": true
+        },
+        {
+          "id": "demo-atlas-heavy-tee-sand-xs",
+          "size": "XS",
+          "color": "Sand",
+          "colorHex": "#C9B391",
+          "price": "35.00",
+          "currency": "EUR",
+          "image": "assets/products/atlas-heavy-tee-sand.svg",
+          "available": true
+        },
+        {
+          "id": "demo-atlas-heavy-tee-sand-s",
+          "size": "S",
+          "color": "Sand",
+          "colorHex": "#C9B391",
+          "price": "35.00",
+          "currency": "EUR",
+          "image": "assets/products/atlas-heavy-tee-sand.svg",
+          "available": true
+        },
+        {
+          "id": "demo-atlas-heavy-tee-sand-m",
+          "size": "M",
+          "color": "Sand",
+          "colorHex": "#C9B391",
+          "price": "35.00",
+          "currency": "EUR",
+          "image": "assets/products/atlas-heavy-tee-sand.svg",
+          "available": true
+        },
+        {
+          "id": "demo-atlas-heavy-tee-sand-l",
+          "size": "L",
+          "color": "Sand",
+          "colorHex": "#C9B391",
+          "price": "35.00",
+          "currency": "EUR",
+          "image": "assets/products/atlas-heavy-tee-sand.svg",
+          "available": true
+        },
+        {
+          "id": "demo-atlas-heavy-tee-sand-xl",
+          "size": "XL",
+          "color": "Sand",
+          "colorHex": "#C9B391",
+          "price": "35.00",
+          "currency": "EUR",
+          "image": "assets/products/atlas-heavy-tee-sand.svg",
+          "available": true
+        },
+        {
+          "id": "demo-atlas-heavy-tee-sand-2xl",
+          "size": "2XL",
+          "color": "Sand",
+          "colorHex": "#C9B391",
+          "price": "35.00",
+          "currency": "EUR",
+          "image": "assets/products/atlas-heavy-tee-sand.svg",
+          "available": true
+        },
+        {
+          "id": "demo-atlas-heavy-tee-cream-xs",
+          "size": "XS",
+          "color": "Cream",
+          "colorHex": "#F4EFE6",
+          "price": "35.00",
+          "currency": "EUR",
+          "image": "assets/products/atlas-heavy-tee-cream.svg",
+          "available": true
+        },
+        {
+          "id": "demo-atlas-heavy-tee-cream-s",
+          "size": "S",
+          "color": "Cream",
+          "colorHex": "#F4EFE6",
+          "price": "35.00",
+          "currency": "EUR",
+          "image": "assets/products/atlas-heavy-tee-cream.svg",
+          "available": true
+        },
+        {
+          "id": "demo-atlas-heavy-tee-cream-m",
+          "size": "M",
+          "color": "Cream",
+          "colorHex": "#F4EFE6",
+          "price": "35.00",
+          "currency": "EUR",
+          "image": "assets/products/atlas-heavy-tee-cream.svg",
+          "available": true
+        },
+        {
+          "id": "demo-atlas-heavy-tee-cream-l",
+          "size": "L",
+          "color": "Cream",
+          "colorHex": "#F4EFE6",
+          "price": "35.00",
+          "currency": "EUR",
+          "image": "assets/products/atlas-heavy-tee-cream.svg",
+          "available": true
+        },
+        {
+          "id": "demo-atlas-heavy-tee-cream-xl",
+          "size": "XL",
+          "color": "Cream",
+          "colorHex": "#F4EFE6",
+          "price": "35.00",
+          "currency": "EUR",
+          "image": "assets/products/atlas-heavy-tee-cream.svg",
+          "available": true
+        },
+        {
+          "id": "demo-atlas-heavy-tee-cream-2xl",
+          "size": "2XL",
+          "color": "Cream",
+          "colorHex": "#F4EFE6",
+          "price": "35.00",
+          "currency": "EUR",
+          "image": "assets/products/atlas-heavy-tee-cream.svg",
+          "available": true
+        }
+      ],
+      "source": "demo"
+    },
+    {
+      "id": "palm-embroidered-hoodie",
+      "slug": "palm-embroidered-hoodie",
+      "name": "Palm Embroidered Hoodie",
+      "category": "tops",
+      "tag": "New",
+      "description": "Brushed-fleece hoodie with the Beldi palm embroidered on the chest.",
+      "images": [
+        "assets/products/palm-embroidered-hoodie-espresso.svg",
+        "assets/products/palm-embroidered-hoodie-sand.svg"
+      ],
+      "variants": [
+        {
+          "id": "demo-palm-embroidered-hoodie-espresso-xs",
+          "size": "XS",
+          "color": "Espresso",
+          "colorHex": "#2C221E",
+          "price": "75.00",
+          "currency": "EUR",
+          "image": "assets/products/palm-embroidered-hoodie-espresso.svg",
+          "available": true
+        },
+        {
+          "id": "demo-palm-embroidered-hoodie-espresso-s",
+          "size": "S",
+          "color": "Espresso",
+          "colorHex": "#2C221E",
+          "price": "75.00",
+          "currency": "EUR",
+          "image": "assets/products/palm-embroidered-hoodie-espresso.svg",
+          "available": true
+        },
+        {
+          "id": "demo-palm-embroidered-hoodie-espresso-m",
+          "size": "M",
+          "color": "Espresso",
+          "colorHex": "#2C221E",
+          "price": "75.00",
+          "currency": "EUR",
+          "image": "assets/products/palm-embroidered-hoodie-espresso.svg",
+          "available": true
+        },
+        {
+          "id": "demo-palm-embroidered-hoodie-espresso-l",
+          "size": "L",
+          "color": "Espresso",
+          "colorHex": "#2C221E",
+          "price": "75.00",
+          "currency": "EUR",
+          "image": "assets/products/palm-embroidered-hoodie-espresso.svg",
+          "available": true
+        },
+        {
+          "id": "demo-palm-embroidered-hoodie-espresso-xl",
+          "size": "XL",
+          "color": "Espresso",
+          "colorHex": "#2C221E",
+          "price": "75.00",
+          "currency": "EUR",
+          "image": "assets/products/palm-embroidered-hoodie-espresso.svg",
+          "available": true
+        },
+        {
+          "id": "demo-palm-embroidered-hoodie-espresso-2xl",
+          "size": "2XL",
+          "color": "Espresso",
+          "colorHex": "#2C221E",
+          "price": "75.00",
+          "currency": "EUR",
+          "image": "assets/products/palm-embroidered-hoodie-espresso.svg",
+          "available": true
+        },
+        {
+          "id": "demo-palm-embroidered-hoodie-sand-xs",
+          "size": "XS",
+          "color": "Sand",
+          "colorHex": "#C9B391",
+          "price": "75.00",
+          "currency": "EUR",
+          "image": "assets/products/palm-embroidered-hoodie-sand.svg",
+          "available": true
+        },
+        {
+          "id": "demo-palm-embroidered-hoodie-sand-s",
+          "size": "S",
+          "color": "Sand",
+          "colorHex": "#C9B391",
+          "price": "75.00",
+          "currency": "EUR",
+          "image": "assets/products/palm-embroidered-hoodie-sand.svg",
+          "available": true
+        },
+        {
+          "id": "demo-palm-embroidered-hoodie-sand-m",
+          "size": "M",
+          "color": "Sand",
+          "colorHex": "#C9B391",
+          "price": "75.00",
+          "currency": "EUR",
+          "image": "assets/products/palm-embroidered-hoodie-sand.svg",
+          "available": true
+        },
+        {
+          "id": "demo-palm-embroidered-hoodie-sand-l",
+          "size": "L",
+          "color": "Sand",
+          "colorHex": "#C9B391",
+          "price": "75.00",
+          "currency": "EUR",
+          "image": "assets/products/palm-embroidered-hoodie-sand.svg",
+          "available": true
+        },
+        {
+          "id": "demo-palm-embroidered-hoodie-sand-xl",
+          "size": "XL",
+          "color": "Sand",
+          "colorHex": "#C9B391",
+          "price": "75.00",
+          "currency": "EUR",
+          "image": "assets/products/palm-embroidered-hoodie-sand.svg",
+          "available": true
+        },
+        {
+          "id": "demo-palm-embroidered-hoodie-sand-2xl",
+          "size": "2XL",
+          "color": "Sand",
+          "colorHex": "#C9B391",
+          "price": "75.00",
+          "currency": "EUR",
+          "image": "assets/products/palm-embroidered-hoodie-sand.svg",
+          "available": true
+        }
+      ],
+      "source": "demo"
+    },
+    {
+      "id": "oasis-crewneck",
+      "slug": "oasis-crewneck",
+      "name": "Oasis Crewneck",
+      "category": "tops",
+      "tag": "New",
+      "description": "Soft crewneck sweatshirt with tonal BELDI embroidery.",
+      "images": [
+        "assets/products/oasis-crewneck-sand.svg",
+        "assets/products/oasis-crewneck-olive.svg",
+        "assets/products/oasis-crewneck-cream.svg"
+      ],
+      "variants": [
+        {
+          "id": "demo-oasis-crewneck-sand-xs",
+          "size": "XS",
+          "color": "Sand",
+          "colorHex": "#C9B391",
+          "price": "65.00",
+          "currency": "EUR",
+          "image": "assets/products/oasis-crewneck-sand.svg",
+          "available": true
+        },
+        {
+          "id": "demo-oasis-crewneck-sand-s",
+          "size": "S",
+          "color": "Sand",
+          "colorHex": "#C9B391",
+          "price": "65.00",
+          "currency": "EUR",
+          "image": "assets/products/oasis-crewneck-sand.svg",
+          "available": true
+        },
+        {
+          "id": "demo-oasis-crewneck-sand-m",
+          "size": "M",
+          "color": "Sand",
+          "colorHex": "#C9B391",
+          "price": "65.00",
+          "currency": "EUR",
+          "image": "assets/products/oasis-crewneck-sand.svg",
+          "available": true
+        },
+        {
+          "id": "demo-oasis-crewneck-sand-l",
+          "size": "L",
+          "color": "Sand",
+          "colorHex": "#C9B391",
+          "price": "65.00",
+          "currency": "EUR",
+          "image": "assets/products/oasis-crewneck-sand.svg",
+          "available": true
+        },
+        {
+          "id": "demo-oasis-crewneck-sand-xl",
+          "size": "XL",
+          "color": "Sand",
+          "colorHex": "#C9B391",
+          "price": "65.00",
+          "currency": "EUR",
+          "image": "assets/products/oasis-crewneck-sand.svg",
+          "available": true
+        },
+        {
+          "id": "demo-oasis-crewneck-sand-2xl",
+          "size": "2XL",
+          "color": "Sand",
+          "colorHex": "#C9B391",
+          "price": "65.00",
+          "currency": "EUR",
+          "image": "assets/products/oasis-crewneck-sand.svg",
+          "available": true
+        },
+        {
+          "id": "demo-oasis-crewneck-olive-xs",
+          "size": "XS",
+          "color": "Olive",
+          "colorHex": "#5B5A3E",
+          "price": "65.00",
+          "currency": "EUR",
+          "image": "assets/products/oasis-crewneck-olive.svg",
+          "available": true
+        },
+        {
+          "id": "demo-oasis-crewneck-olive-s",
+          "size": "S",
+          "color": "Olive",
+          "colorHex": "#5B5A3E",
+          "price": "65.00",
+          "currency": "EUR",
+          "image": "assets/products/oasis-crewneck-olive.svg",
+          "available": true
+        },
+        {
+          "id": "demo-oasis-crewneck-olive-m",
+          "size": "M",
+          "color": "Olive",
+          "colorHex": "#5B5A3E",
+          "price": "65.00",
+          "currency": "EUR",
+          "image": "assets/products/oasis-crewneck-olive.svg",
+          "available": true
+        },
+        {
+          "id": "demo-oasis-crewneck-olive-l",
+          "size": "L",
+          "color": "Olive",
+          "colorHex": "#5B5A3E",
+          "price": "65.00",
+          "currency": "EUR",
+          "image": "assets/products/oasis-crewneck-olive.svg",
+          "available": true
+        },
+        {
+          "id": "demo-oasis-crewneck-olive-xl",
+          "size": "XL",
+          "color": "Olive",
+          "colorHex": "#5B5A3E",
+          "price": "65.00",
+          "currency": "EUR",
+          "image": "assets/products/oasis-crewneck-olive.svg",
+          "available": true
+        },
+        {
+          "id": "demo-oasis-crewneck-olive-2xl",
+          "size": "2XL",
+          "color": "Olive",
+          "colorHex": "#5B5A3E",
+          "price": "65.00",
+          "currency": "EUR",
+          "image": "assets/products/oasis-crewneck-olive.svg",
+          "available": true
+        },
+        {
+          "id": "demo-oasis-crewneck-cream-xs",
+          "size": "XS",
+          "color": "Cream",
+          "colorHex": "#F4EFE6",
+          "price": "65.00",
+          "currency": "EUR",
+          "image": "assets/products/oasis-crewneck-cream.svg",
+          "available": true
+        },
+        {
+          "id": "demo-oasis-crewneck-cream-s",
+          "size": "S",
+          "color": "Cream",
+          "colorHex": "#F4EFE6",
+          "price": "65.00",
+          "currency": "EUR",
+          "image": "assets/products/oasis-crewneck-cream.svg",
+          "available": true
+        },
+        {
+          "id": "demo-oasis-crewneck-cream-m",
+          "size": "M",
+          "color": "Cream",
+          "colorHex": "#F4EFE6",
+          "price": "65.00",
+          "currency": "EUR",
+          "image": "assets/products/oasis-crewneck-cream.svg",
+          "available": true
+        },
+        {
+          "id": "demo-oasis-crewneck-cream-l",
+          "size": "L",
+          "color": "Cream",
+          "colorHex": "#F4EFE6",
+          "price": "65.00",
+          "currency": "EUR",
+          "image": "assets/products/oasis-crewneck-cream.svg",
+          "available": true
+        },
+        {
+          "id": "demo-oasis-crewneck-cream-xl",
+          "size": "XL",
+          "color": "Cream",
+          "colorHex": "#F4EFE6",
+          "price": "65.00",
+          "currency": "EUR",
+          "image": "assets/products/oasis-crewneck-cream.svg",
+          "available": true
+        },
+        {
+          "id": "demo-oasis-crewneck-cream-2xl",
+          "size": "2XL",
+          "color": "Cream",
+          "colorHex": "#F4EFE6",
+          "price": "65.00",
+          "currency": "EUR",
+          "image": "assets/products/oasis-crewneck-cream.svg",
+          "available": true
+        }
+      ],
+      "source": "demo"
+    },
+    {
+      "id": "fes-joggers",
+      "slug": "fes-joggers",
+      "name": "Fès Joggers",
+      "category": "bottoms",
+      "tag": "Limited",
+      "description": "Relaxed joggers with an embroidered palm at the hip.",
+      "images": [
+        "assets/products/fes-joggers-espresso.svg",
+        "assets/products/fes-joggers-olive.svg"
+      ],
+      "variants": [
+        {
+          "id": "demo-fes-joggers-espresso-xs",
+          "size": "XS",
+          "color": "Espresso",
+          "colorHex": "#2C221E",
+          "price": "59.00",
+          "currency": "EUR",
+          "image": "assets/products/fes-joggers-espresso.svg",
+          "available": true
+        },
+        {
+          "id": "demo-fes-joggers-espresso-s",
+          "size": "S",
+          "color": "Espresso",
+          "colorHex": "#2C221E",
+          "price": "59.00",
+          "currency": "EUR",
+          "image": "assets/products/fes-joggers-espresso.svg",
+          "available": true
+        },
+        {
+          "id": "demo-fes-joggers-espresso-m",
+          "size": "M",
+          "color": "Espresso",
+          "colorHex": "#2C221E",
+          "price": "59.00",
+          "currency": "EUR",
+          "image": "assets/products/fes-joggers-espresso.svg",
+          "available": true
+        },
+        {
+          "id": "demo-fes-joggers-espresso-l",
+          "size": "L",
+          "color": "Espresso",
+          "colorHex": "#2C221E",
+          "price": "59.00",
+          "currency": "EUR",
+          "image": "assets/products/fes-joggers-espresso.svg",
+          "available": true
+        },
+        {
+          "id": "demo-fes-joggers-espresso-xl",
+          "size": "XL",
+          "color": "Espresso",
+          "colorHex": "#2C221E",
+          "price": "59.00",
+          "currency": "EUR",
+          "image": "assets/products/fes-joggers-espresso.svg",
+          "available": true
+        },
+        {
+          "id": "demo-fes-joggers-olive-xs",
+          "size": "XS",
+          "color": "Olive",
+          "colorHex": "#5B5A3E",
+          "price": "59.00",
+          "currency": "EUR",
+          "image": "assets/products/fes-joggers-olive.svg",
+          "available": true
+        },
+        {
+          "id": "demo-fes-joggers-olive-s",
+          "size": "S",
+          "color": "Olive",
+          "colorHex": "#5B5A3E",
+          "price": "59.00",
+          "currency": "EUR",
+          "image": "assets/products/fes-joggers-olive.svg",
+          "available": true
+        },
+        {
+          "id": "demo-fes-joggers-olive-m",
+          "size": "M",
+          "color": "Olive",
+          "colorHex": "#5B5A3E",
+          "price": "59.00",
+          "currency": "EUR",
+          "image": "assets/products/fes-joggers-olive.svg",
+          "available": true
+        },
+        {
+          "id": "demo-fes-joggers-olive-l",
+          "size": "L",
+          "color": "Olive",
+          "colorHex": "#5B5A3E",
+          "price": "59.00",
+          "currency": "EUR",
+          "image": "assets/products/fes-joggers-olive.svg",
+          "available": true
+        },
+        {
+          "id": "demo-fes-joggers-olive-xl",
+          "size": "XL",
+          "color": "Olive",
+          "colorHex": "#5B5A3E",
+          "price": "59.00",
+          "currency": "EUR",
+          "image": "assets/products/fes-joggers-olive.svg",
+          "available": true
+        }
+      ],
+      "source": "demo"
+    },
+    {
+      "id": "palm-dad-cap",
+      "slug": "palm-dad-cap",
+      "name": "Palm Dad Cap",
+      "category": "accessories",
+      "tag": "",
+      "description": "Washed cotton cap with the palm embroidered on the front.",
+      "images": [
+        "assets/products/palm-dad-cap-espresso.svg",
+        "assets/products/palm-dad-cap-sand.svg"
+      ],
+      "variants": [
+        {
+          "id": "demo-palm-dad-cap-espresso-one-size",
+          "size": "One size",
+          "color": "Espresso",
+          "colorHex": "#2C221E",
+          "price": "29.00",
+          "currency": "EUR",
+          "image": "assets/products/palm-dad-cap-espresso.svg",
+          "available": true
+        },
+        {
+          "id": "demo-palm-dad-cap-sand-one-size",
+          "size": "One size",
+          "color": "Sand",
+          "colorHex": "#C9B391",
+          "price": "29.00",
+          "currency": "EUR",
+          "image": "assets/products/palm-dad-cap-sand.svg",
+          "available": true
+        }
+      ],
+      "source": "demo"
+    },
+    {
+      "id": "medina-tote",
+      "slug": "medina-tote",
+      "name": "Medina Tote",
+      "category": "accessories",
+      "tag": "",
+      "description": "Heavy canvas tote for the market, the gym or the office.",
+      "images": [
+        "assets/products/medina-tote-natural.svg"
+      ],
+      "variants": [
+        {
+          "id": "demo-medina-tote-natural-one-size",
+          "size": "One size",
+          "color": "Natural",
+          "colorHex": "#E9E0CC",
+          "price": "25.00",
+          "currency": "EUR",
+          "image": "assets/products/medina-tote-natural.svg",
+          "available": true
+        }
+      ],
+      "source": "demo"
+    }
+  ]
+}

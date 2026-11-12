@@ -1,0 +1,9 @@
+{
+  "_help": "Keys are Printful sync product IDs (or exact product names). Values are merged into the product after syncing.",
+  "Atlas Heavy Tee": {
+    "slug": "atlas-heavy-tee",
+    "category": "tops",
+    "tag": "Essential",
+    "description": "Heavyweight cotton tee with a relaxed, boxy fit."
+  }
+}

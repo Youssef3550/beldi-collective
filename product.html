@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Beldi Collective</title>
+  <meta name="description" content="Beldi Collective product.">
+  <link rel="icon" href="assets/palm.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="sr-only" href="#main">Skip to content</a>
+  <div class="announce"><a href="index.html#early">Collection 01 drops <span data-cfg="dropDateText"></span> · Waitlist shops 24h early →</a></div>
+
+  <header class="site-header">
+    <div class="wrap header-row">
+      <div style="display:flex;align-items:center">
+        <button class="icon-btn menu-btn" data-menu aria-label="Menu" aria-expanded="false" aria-controls="main-nav"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+        <nav class="main-nav" id="main-nav" aria-label="Main">
+          <a href="shop.html">Shop</a>
+          <a href="shop.html?c=tops">Tops</a>
+          <a href="index.html#look">Build the look</a>
+          <a href="index.html#story">Our story</a>
+        </nav>
+      </div>
+      <a class="brand" href="index.html" aria-label="Beldi Collective home"><span class="brand-word">BELDI<span>*</span></span><span class="brand-sub">collective</span></a>
+      <div class="header-actions">
+        <a class="icon-btn hide-sm" href="shop.html" aria-label="Search the shop"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></a>
+        <button class="bag-btn" data-open-cart aria-label="Open bag"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 8h14l-1 13H6L5 8z"/><path d="M9 8V6a3 3 0 016 0v2"/></svg>Bag (<span data-cart-count>0</span>)</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="wrap crumbs"><a href="index.html">Home</a> / <a href="shop.html">Shop</a> / <span id="crumb-name"></span></div>
+    <div class="wrap pdp" id="pdp">
+      <div class="gallery">
+        <div class="thumbs" id="thumbs" role="group" aria-label="Product images"></div>
+        <div class="main-img"><img id="main-img" src="assets/palm.png" alt=""></div>
+      </div>
+      <div class="buy">
+        <div style="display:flex;flex-direction:column;gap:12px">
+          <p class="eyebrow plain" id="p-tag"></p>
+          <h1 class="h1" id="p-name">Loading…</h1>
+          <div class="buy-price" id="p-price"></div>
+        </div>
+        <p class="body" id="p-desc"></p>
+        <div id="color-block">
+          <div class="opt-head"><span>Colour: <strong id="color-name" style="color:var(--ink)"></strong></span></div>
+          <div class="swatches" id="swatches" role="group" aria-label="Colour"></div>
+        </div>
+        <div id="size-block">
+          <div class="opt-head"><span>Size</span><a href="#size-guide" style="font-size:12px;letter-spacing:.1em" id="open-size-guide">Size guide</a></div>
+          <div class="pills" id="sizes" role="group" aria-label="Size"></div>
+        </div>
+        <div class="buy-row">
+          <div class="qty"><button type="button" aria-label="Decrease quantity" id="q-minus">−</button><output id="q-val">1</output><button type="button" aria-label="Increase quantity" id="q-plus">+</button></div>
+          <button class="btn" type="button" id="add-btn">Add to bag</button>
+        </div>
+        <div class="ship-note">
+          <span><span class="star">*</span> Free shipping in Belgium over <span data-cfg="freeShippingThreshold"></span></span>
+          <span><span class="star">*</span> Made to order · ships in 2–5 working days</span>
+          <span><span class="star">*</span> <span data-cfg="returnsDays"></span>-day returns on unworn pieces</span>
+        </div>
+        <div class="acc" id="details">
+          <details open><summary>Details</summary><div class="acc-body" id="p-details"></div></details>
+          <details id="size-guide"><summary>Size guide</summary><div class="acc-body">
+            <p style="margin-top:0">Relaxed fit. Take your usual size, or size down for a closer fit. Measurements are body chest, in cm. [Replace with the Printful size chart for each product.]</p>
+            <table class="size-table"><thead><tr><th scope="col">Size</th><th scope="col">XS</th><th scope="col">S</th><th scope="col">M</th><th scope="col">L</th><th scope="col">XL</th><th scope="col">2XL</th></tr></thead>
+            <tbody><tr><th scope="row">Chest</th><td>[ ]</td><td>[ ]</td><td>[ ]</td><td>[ ]</td><td>[ ]</td><td>[ ]</td></tr><tr><th scope="row">Length</th><td>[ ]</td><td>[ ]</td><td>[ ]</td><td>[ ]</td><td>[ ]</td><td>[ ]</td></tr></tbody></table>
+          </div></details>
+          <details><summary>Shipping &amp; returns</summary><div class="acc-body">Each piece is printed or embroidered to order and ships in 2–5 working days. Free shipping in Belgium over <span data-cfg="freeShippingThreshold"></span>. Returns are accepted within <span data-cfg="returnsDays"></span> days for unworn items.</div></details>
+          <details><summary>Care</summary><div class="acc-body">Wash cold, inside out. Do not tumble dry. Do not iron the embroidery or print.</div></details>
+        </div>
+      </div>
+    </div>
+    <section class="bordered-top" aria-labelledby="rel-title">
+      <div class="wrap section">
+        <div class="section-head"><div><p class="eyebrow plain">Wear it with</p><h2 class="h2" id="rel-title">Complete the look</h2></div><a class="link-caps" href="index.html#look">Build the look</a></div>
+        <div class="product-grid" id="related"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-top">
+      <div class="footer-brand"><img src="assets/logo-cream.png" alt="Beldi Collective"><p>Clothing with Moroccan roots, made for everyday life.</p></div>
+      <nav class="footer-col" aria-labelledby="f-shop"><h2 id="f-shop">Shop</h2><a href="shop.html">All products</a><a href="shop.html?c=tops">Tees &amp; sweats</a><a href="shop.html?c=bottoms">Bottoms</a><a href="shop.html?c=accessories">Accessories</a></nav>
+      <nav class="footer-col" aria-labelledby="f-help"><h2 id="f-help">Help</h2><a href="product.html?p=atlas-heavy-tee#details">Shipping</a><a href="product.html?p=atlas-heavy-tee#details">Returns</a><a href="product.html?p=atlas-heavy-tee#size-guide">Size guide</a><a href="mailto:hello@example.com">Contact</a></nav>
+      <nav class="footer-col" aria-labelledby="f-follow"><h2 id="f-follow">Follow</h2><a href="#">Instagram</a><a href="#">TikTok</a></nav>
+    </div>
+    <div class="wrap footer-bottom"><span>© <span data-year>2026</span> Beldi Collective</span><span>Bancontact · Visa · Mastercard · PayPal · Apple Pay</span></div>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/product.js"></script>
+</body>
+</html>

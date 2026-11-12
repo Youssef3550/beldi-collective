@@ -197,7 +197,13 @@
   }
   function initNav() {
     var btn = $('[data-menu]'), nav = $('#main-nav');
-    if (btn && nav) btn.addEventListener('click', function () { var o = nav.classList.toggle('open'); btn.setAttribute('aria-expanded', String(o)); });
+    if (!btn || !nav) return;
+    function setOpen(o) { nav.classList.toggle('open', o); btn.setAttribute('aria-expanded', String(o)); }
+    btn.addEventListener('click', function () { setOpen(!nav.classList.contains('open')); });
+    // Close the menu after picking a link (same-page links like #look don't reload the page)
+    $all('a', nav).forEach(function (a) { a.addEventListener('click', function () { setOpen(false); }); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') setOpen(false); });
+    window.addEventListener('resize', function () { if (window.innerWidth > 860) setOpen(false); });
   }
 
   window.Beldi = {

@@ -16,6 +16,8 @@
 }
 *, *::before, *::after { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
+/* Leave room for the sticky header when jumping to #look, #story, #early */
+section[id], [id="details"], [id="size-guide"] { scroll-margin-top: 96px; }
 body { margin: 0; background: var(--ivory); color: var(--ink); font-family: var(--sans); -webkit-font-smoothing: antialiased; }
 img { max-width: 100%; display: block; }
 a { color: var(--ink); }

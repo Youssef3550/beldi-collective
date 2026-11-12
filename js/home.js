@@ -64,6 +64,14 @@
     update();
   }
 
+  var userScrolled = false;
+  ['wheel', 'touchmove', 'keydown'].forEach(function (ev) { window.addEventListener(ev, function () { userScrolled = true; }, { once: true, passive: true }); });
+  function jumpToHash() {
+    if (userScrolled || !location.hash) return;
+    var el = document.getElementById(location.hash.slice(1));
+    if (el) el.scrollIntoView({ behavior: 'instant', block: 'start' });
+  }
+
   document.addEventListener('DOMContentLoaded', function () {
     if (!tick()) { var t = setInterval(function () { if (tick()) clearInterval(t); }, 1000); }
     B.loadProducts().then(function (products) {
@@ -71,6 +79,10 @@
       grid.innerHTML = '';
       products.slice(0, 4).forEach(function (p) { grid.appendChild(B.productCard(p)); });
       initLook(products);
+      // Coming from another page (index.html#look): the products above just pushed the section down,
+      // so jump to it again now that the layout is final.
+      jumpToHash();
+      if (document.fonts && document.fonts.ready) document.fonts.ready.then(jumpToHash);
     }).catch(function (err) {
       document.getElementById('featured').innerHTML = '<p class="body">Products could not be loaded. If you opened this file directly, run it through a local server (see README).</p>';
       console.error(err);

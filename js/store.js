@@ -216,7 +216,7 @@
     buildDrawer();
     // Back from Stripe Checkout
     var order = new URLSearchParams(location.search).get('order');
-    if (order === 'success') { writeCart([]); setTimeout(function () { toast('Shukran! Your order is confirmed. Check your email.'); }, 300); }
+    if (order === 'success') { writeCart([]); setTimeout(function () { toast('Shokran! Your order is confirmed. Check your email.'); }, 300); }
     if (order === 'cancelled') setTimeout(function () { toast('Checkout cancelled. Your bag is still here.'); }, 300);
     renderCart(); initWaitlist(); fillConfig(); initNav();
     var y = $('[data-year]'); if (y) y.textContent = new Date().getFullYear();

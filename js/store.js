@@ -172,7 +172,7 @@
         var done = function () {
           $all('form[data-waitlist]').forEach(function (f) {
             var msg = document.createElement('p'); msg.className = 'form-done'; msg.setAttribute('role', 'status');
-            msg.textContent = 'Shukran. You\'re on the list. We\'ll email you before the doors open.';
+            msg.textContent = 'Shokran. You\'re on the list. We\'ll email you before the doors open.';
             f.replaceWith(msg);
           });
           try { localStorage.setItem('beldi_waitlist', '1'); } catch (err) { /* ignore */ }

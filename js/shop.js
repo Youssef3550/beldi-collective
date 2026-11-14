@@ -2,7 +2,7 @@
 (function () {
   'use strict';
   var B = window.Beldi;
-  var TITLES = { all: 'Shop all', tops: 'Tees & sweats', bottoms: 'Bottoms', accessories: 'Accessories' };
+  var TITLES = { all: 'Shop all', tees: 'T-shirts', longsleeves: 'Long sleeves', hoodies: 'Hoodies', caps: 'Caps' };
 
   document.addEventListener('DOMContentLoaded', function () {
     var params = new URLSearchParams(location.search);

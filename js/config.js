@@ -14,7 +14,7 @@ window.BELDI_CONFIG = {
   lookBundleDiscount: 10,  // % off when the complete look is bought
 
   // Product slugs that make up "Build the look" on the home page.
-  look: ['oasis-crewneck', 'fes-joggers', 'palm-dad-cap'],
+  look: ['hoodie-roots-culture', 'tee-beldi-26', 'cap-arabic'],
 
   // Waitlist / newsletter. Leave empty for demo mode (sign-ups are not stored).
   // Paste a form endpoint that accepts JSON POST {email} (Formspree, Brevo, Mailchimp via a proxy, your worker...).

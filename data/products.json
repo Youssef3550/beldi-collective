@@ -4,701 +4,714 @@
   "updatedAt": null,
   "products": [
     {
-      "id": "atlas-heavy-tee",
-      "slug": "atlas-heavy-tee",
-      "name": "Atlas Heavy Tee",
-      "category": "tops",
-      "tag": "Essential",
-      "description": "Heavyweight cotton tee with a relaxed, boxy fit and a small gold asterisk on the chest.",
-      "images": [
-        "assets/products/atlas-heavy-tee-espresso.svg",
-        "assets/products/atlas-heavy-tee-sand.svg",
-        "assets/products/atlas-heavy-tee-cream.svg"
-      ],
-      "variants": [
-        {
-          "id": "demo-atlas-heavy-tee-espresso-xs",
-          "size": "XS",
-          "color": "Espresso",
-          "colorHex": "#2C221E",
-          "price": "35.00",
-          "currency": "EUR",
-          "image": "assets/products/atlas-heavy-tee-espresso.svg",
-          "available": true
-        },
-        {
-          "id": "demo-atlas-heavy-tee-espresso-s",
-          "size": "S",
-          "color": "Espresso",
-          "colorHex": "#2C221E",
-          "price": "35.00",
-          "currency": "EUR",
-          "image": "assets/products/atlas-heavy-tee-espresso.svg",
-          "available": true
-        },
-        {
-          "id": "demo-atlas-heavy-tee-espresso-m",
-          "size": "M",
-          "color": "Espresso",
-          "colorHex": "#2C221E",
-          "price": "35.00",
-          "currency": "EUR",
-          "image": "assets/products/atlas-heavy-tee-espresso.svg",
-          "available": true
-        },
-        {
-          "id": "demo-atlas-heavy-tee-espresso-l",
-          "size": "L",
-          "color": "Espresso",
-          "colorHex": "#2C221E",
-          "price": "35.00",
-          "currency": "EUR",
-          "image": "assets/products/atlas-heavy-tee-espresso.svg",
-          "available": true
-        },
-        {
-          "id": "demo-atlas-heavy-tee-espresso-xl",
-          "size": "XL",
-          "color": "Espresso",
-          "colorHex": "#2C221E",
-          "price": "35.00",
-          "currency": "EUR",
-          "image": "assets/products/atlas-heavy-tee-espresso.svg",
-          "available": true
-        },
-        {
-          "id": "demo-atlas-heavy-tee-espresso-2xl",
-          "size": "2XL",
-          "color": "Espresso",
-          "colorHex": "#2C221E",
-          "price": "35.00",
-          "currency": "EUR",
-          "image": "assets/products/atlas-heavy-tee-espresso.svg",
-          "available": true
-        },
-        {
-          "id": "demo-atlas-heavy-tee-sand-xs",
-          "size": "XS",
-          "color": "Sand",
-          "colorHex": "#C9B391",
-          "price": "35.00",
-          "currency": "EUR",
-          "image": "assets/products/atlas-heavy-tee-sand.svg",
-          "available": true
-        },
-        {
-          "id": "demo-atlas-heavy-tee-sand-s",
-          "size": "S",
-          "color": "Sand",
-          "colorHex": "#C9B391",
-          "price": "35.00",
-          "currency": "EUR",
-          "image": "assets/products/atlas-heavy-tee-sand.svg",
-          "available": true
-        },
-        {
-          "id": "demo-atlas-heavy-tee-sand-m",
-          "size": "M",
-          "color": "Sand",
-          "colorHex": "#C9B391",
-          "price": "35.00",
-          "currency": "EUR",
-          "image": "assets/products/atlas-heavy-tee-sand.svg",
-          "available": true
-        },
-        {
-          "id": "demo-atlas-heavy-tee-sand-l",
-          "size": "L",
-          "color": "Sand",
-          "colorHex": "#C9B391",
-          "price": "35.00",
-          "currency": "EUR",
-          "image": "assets/products/atlas-heavy-tee-sand.svg",
-          "available": true
-        },
-        {
-          "id": "demo-atlas-heavy-tee-sand-xl",
-          "size": "XL",
-          "color": "Sand",
-          "colorHex": "#C9B391",
-          "price": "35.00",
-          "currency": "EUR",
-          "image": "assets/products/atlas-heavy-tee-sand.svg",
-          "available": true
-        },
-        {
-          "id": "demo-atlas-heavy-tee-sand-2xl",
-          "size": "2XL",
-          "color": "Sand",
-          "colorHex": "#C9B391",
-          "price": "35.00",
-          "currency": "EUR",
-          "image": "assets/products/atlas-heavy-tee-sand.svg",
-          "available": true
-        },
-        {
-          "id": "demo-atlas-heavy-tee-cream-xs",
-          "size": "XS",
-          "color": "Cream",
-          "colorHex": "#F4EFE6",
-          "price": "35.00",
-          "currency": "EUR",
-          "image": "assets/products/atlas-heavy-tee-cream.svg",
-          "available": true
-        },
-        {
-          "id": "demo-atlas-heavy-tee-cream-s",
-          "size": "S",
-          "color": "Cream",
-          "colorHex": "#F4EFE6",
-          "price": "35.00",
-          "currency": "EUR",
-          "image": "assets/products/atlas-heavy-tee-cream.svg",
-          "available": true
-        },
-        {
-          "id": "demo-atlas-heavy-tee-cream-m",
-          "size": "M",
-          "color": "Cream",
-          "colorHex": "#F4EFE6",
-          "price": "35.00",
-          "currency": "EUR",
-          "image": "assets/products/atlas-heavy-tee-cream.svg",
-          "available": true
-        },
-        {
-          "id": "demo-atlas-heavy-tee-cream-l",
-          "size": "L",
-          "color": "Cream",
-          "colorHex": "#F4EFE6",
-          "price": "35.00",
-          "currency": "EUR",
-          "image": "assets/products/atlas-heavy-tee-cream.svg",
-          "available": true
-        },
-        {
-          "id": "demo-atlas-heavy-tee-cream-xl",
-          "size": "XL",
-          "color": "Cream",
-          "colorHex": "#F4EFE6",
-          "price": "35.00",
-          "currency": "EUR",
-          "image": "assets/products/atlas-heavy-tee-cream.svg",
-          "available": true
-        },
-        {
-          "id": "demo-atlas-heavy-tee-cream-2xl",
-          "size": "2XL",
-          "color": "Cream",
-          "colorHex": "#F4EFE6",
-          "price": "35.00",
-          "currency": "EUR",
-          "image": "assets/products/atlas-heavy-tee-cream.svg",
-          "available": true
-        }
-      ],
-      "source": "demo"
-    },
-    {
-      "id": "palm-embroidered-hoodie",
-      "slug": "palm-embroidered-hoodie",
-      "name": "Palm Embroidered Hoodie",
-      "category": "tops",
+      "id": "tee-beldi-26",
+      "slug": "tee-beldi-26",
+      "name": "BELDI 26 Varsity Tee",
+      "category": "tees",
       "tag": "New",
-      "description": "Brushed-fleece hoodie with the Beldi palm embroidered on the chest.",
+      "description": "Oversized heavyweight tee with the BELDI 26 varsity print on the front.",
       "images": [
-        "assets/products/palm-embroidered-hoodie-espresso.svg",
-        "assets/products/palm-embroidered-hoodie-sand.svg"
+        "assets/products/mockups/tee-beldi-26.jpg"
       ],
       "variants": [
         {
-          "id": "demo-palm-embroidered-hoodie-espresso-xs",
+          "id": "demo-tee-beldi-26-xs",
           "size": "XS",
-          "color": "Espresso",
-          "colorHex": "#2C221E",
-          "price": "75.00",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "35.00",
           "currency": "EUR",
-          "image": "assets/products/palm-embroidered-hoodie-espresso.svg",
+          "image": "assets/products/mockups/tee-beldi-26.jpg",
           "available": true
         },
         {
-          "id": "demo-palm-embroidered-hoodie-espresso-s",
+          "id": "demo-tee-beldi-26-s",
           "size": "S",
-          "color": "Espresso",
-          "colorHex": "#2C221E",
-          "price": "75.00",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "35.00",
           "currency": "EUR",
-          "image": "assets/products/palm-embroidered-hoodie-espresso.svg",
+          "image": "assets/products/mockups/tee-beldi-26.jpg",
           "available": true
         },
         {
-          "id": "demo-palm-embroidered-hoodie-espresso-m",
+          "id": "demo-tee-beldi-26-m",
           "size": "M",
-          "color": "Espresso",
-          "colorHex": "#2C221E",
-          "price": "75.00",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "35.00",
           "currency": "EUR",
-          "image": "assets/products/palm-embroidered-hoodie-espresso.svg",
+          "image": "assets/products/mockups/tee-beldi-26.jpg",
           "available": true
         },
         {
-          "id": "demo-palm-embroidered-hoodie-espresso-l",
+          "id": "demo-tee-beldi-26-l",
           "size": "L",
-          "color": "Espresso",
-          "colorHex": "#2C221E",
-          "price": "75.00",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "35.00",
           "currency": "EUR",
-          "image": "assets/products/palm-embroidered-hoodie-espresso.svg",
+          "image": "assets/products/mockups/tee-beldi-26.jpg",
           "available": true
         },
         {
-          "id": "demo-palm-embroidered-hoodie-espresso-xl",
+          "id": "demo-tee-beldi-26-xl",
           "size": "XL",
-          "color": "Espresso",
-          "colorHex": "#2C221E",
-          "price": "75.00",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "35.00",
           "currency": "EUR",
-          "image": "assets/products/palm-embroidered-hoodie-espresso.svg",
+          "image": "assets/products/mockups/tee-beldi-26.jpg",
           "available": true
         },
         {
-          "id": "demo-palm-embroidered-hoodie-espresso-2xl",
+          "id": "demo-tee-beldi-26-2xl",
           "size": "2XL",
-          "color": "Espresso",
-          "colorHex": "#2C221E",
-          "price": "75.00",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "35.00",
           "currency": "EUR",
-          "image": "assets/products/palm-embroidered-hoodie-espresso.svg",
-          "available": true
-        },
-        {
-          "id": "demo-palm-embroidered-hoodie-sand-xs",
-          "size": "XS",
-          "color": "Sand",
-          "colorHex": "#C9B391",
-          "price": "75.00",
-          "currency": "EUR",
-          "image": "assets/products/palm-embroidered-hoodie-sand.svg",
-          "available": true
-        },
-        {
-          "id": "demo-palm-embroidered-hoodie-sand-s",
-          "size": "S",
-          "color": "Sand",
-          "colorHex": "#C9B391",
-          "price": "75.00",
-          "currency": "EUR",
-          "image": "assets/products/palm-embroidered-hoodie-sand.svg",
-          "available": true
-        },
-        {
-          "id": "demo-palm-embroidered-hoodie-sand-m",
-          "size": "M",
-          "color": "Sand",
-          "colorHex": "#C9B391",
-          "price": "75.00",
-          "currency": "EUR",
-          "image": "assets/products/palm-embroidered-hoodie-sand.svg",
-          "available": true
-        },
-        {
-          "id": "demo-palm-embroidered-hoodie-sand-l",
-          "size": "L",
-          "color": "Sand",
-          "colorHex": "#C9B391",
-          "price": "75.00",
-          "currency": "EUR",
-          "image": "assets/products/palm-embroidered-hoodie-sand.svg",
-          "available": true
-        },
-        {
-          "id": "demo-palm-embroidered-hoodie-sand-xl",
-          "size": "XL",
-          "color": "Sand",
-          "colorHex": "#C9B391",
-          "price": "75.00",
-          "currency": "EUR",
-          "image": "assets/products/palm-embroidered-hoodie-sand.svg",
-          "available": true
-        },
-        {
-          "id": "demo-palm-embroidered-hoodie-sand-2xl",
-          "size": "2XL",
-          "color": "Sand",
-          "colorHex": "#C9B391",
-          "price": "75.00",
-          "currency": "EUR",
-          "image": "assets/products/palm-embroidered-hoodie-sand.svg",
+          "image": "assets/products/mockups/tee-beldi-26.jpg",
           "available": true
         }
       ],
       "source": "demo"
     },
     {
-      "id": "oasis-crewneck",
-      "slug": "oasis-crewneck",
-      "name": "Oasis Crewneck",
-      "category": "tops",
+      "id": "tee-palm-sunset",
+      "slug": "tee-palm-sunset",
+      "name": "Palm Sunset Tee",
+      "category": "tees",
       "tag": "New",
-      "description": "Soft crewneck sweatshirt with tonal BELDI embroidery.",
+      "description": "Relaxed tee with a hand-painted palm sunset and the Beldi script. Good vibes only.",
       "images": [
-        "assets/products/oasis-crewneck-sand.svg",
-        "assets/products/oasis-crewneck-olive.svg",
-        "assets/products/oasis-crewneck-cream.svg"
+        "assets/products/mockups/tee-palm-sunset.jpg"
       ],
       "variants": [
         {
-          "id": "demo-oasis-crewneck-sand-xs",
+          "id": "demo-tee-palm-sunset-xs",
           "size": "XS",
-          "color": "Sand",
-          "colorHex": "#C9B391",
-          "price": "65.00",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "35.00",
           "currency": "EUR",
-          "image": "assets/products/oasis-crewneck-sand.svg",
+          "image": "assets/products/mockups/tee-palm-sunset.jpg",
           "available": true
         },
         {
-          "id": "demo-oasis-crewneck-sand-s",
+          "id": "demo-tee-palm-sunset-s",
           "size": "S",
-          "color": "Sand",
-          "colorHex": "#C9B391",
-          "price": "65.00",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "35.00",
           "currency": "EUR",
-          "image": "assets/products/oasis-crewneck-sand.svg",
+          "image": "assets/products/mockups/tee-palm-sunset.jpg",
           "available": true
         },
         {
-          "id": "demo-oasis-crewneck-sand-m",
+          "id": "demo-tee-palm-sunset-m",
           "size": "M",
-          "color": "Sand",
-          "colorHex": "#C9B391",
-          "price": "65.00",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "35.00",
           "currency": "EUR",
-          "image": "assets/products/oasis-crewneck-sand.svg",
+          "image": "assets/products/mockups/tee-palm-sunset.jpg",
           "available": true
         },
         {
-          "id": "demo-oasis-crewneck-sand-l",
+          "id": "demo-tee-palm-sunset-l",
           "size": "L",
-          "color": "Sand",
-          "colorHex": "#C9B391",
-          "price": "65.00",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "35.00",
           "currency": "EUR",
-          "image": "assets/products/oasis-crewneck-sand.svg",
+          "image": "assets/products/mockups/tee-palm-sunset.jpg",
           "available": true
         },
         {
-          "id": "demo-oasis-crewneck-sand-xl",
+          "id": "demo-tee-palm-sunset-xl",
           "size": "XL",
-          "color": "Sand",
-          "colorHex": "#C9B391",
-          "price": "65.00",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "35.00",
           "currency": "EUR",
-          "image": "assets/products/oasis-crewneck-sand.svg",
+          "image": "assets/products/mockups/tee-palm-sunset.jpg",
           "available": true
         },
         {
-          "id": "demo-oasis-crewneck-sand-2xl",
+          "id": "demo-tee-palm-sunset-2xl",
           "size": "2XL",
-          "color": "Sand",
-          "colorHex": "#C9B391",
-          "price": "65.00",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "35.00",
           "currency": "EUR",
-          "image": "assets/products/oasis-crewneck-sand.svg",
-          "available": true
-        },
-        {
-          "id": "demo-oasis-crewneck-olive-xs",
-          "size": "XS",
-          "color": "Olive",
-          "colorHex": "#5B5A3E",
-          "price": "65.00",
-          "currency": "EUR",
-          "image": "assets/products/oasis-crewneck-olive.svg",
-          "available": true
-        },
-        {
-          "id": "demo-oasis-crewneck-olive-s",
-          "size": "S",
-          "color": "Olive",
-          "colorHex": "#5B5A3E",
-          "price": "65.00",
-          "currency": "EUR",
-          "image": "assets/products/oasis-crewneck-olive.svg",
-          "available": true
-        },
-        {
-          "id": "demo-oasis-crewneck-olive-m",
-          "size": "M",
-          "color": "Olive",
-          "colorHex": "#5B5A3E",
-          "price": "65.00",
-          "currency": "EUR",
-          "image": "assets/products/oasis-crewneck-olive.svg",
-          "available": true
-        },
-        {
-          "id": "demo-oasis-crewneck-olive-l",
-          "size": "L",
-          "color": "Olive",
-          "colorHex": "#5B5A3E",
-          "price": "65.00",
-          "currency": "EUR",
-          "image": "assets/products/oasis-crewneck-olive.svg",
-          "available": true
-        },
-        {
-          "id": "demo-oasis-crewneck-olive-xl",
-          "size": "XL",
-          "color": "Olive",
-          "colorHex": "#5B5A3E",
-          "price": "65.00",
-          "currency": "EUR",
-          "image": "assets/products/oasis-crewneck-olive.svg",
-          "available": true
-        },
-        {
-          "id": "demo-oasis-crewneck-olive-2xl",
-          "size": "2XL",
-          "color": "Olive",
-          "colorHex": "#5B5A3E",
-          "price": "65.00",
-          "currency": "EUR",
-          "image": "assets/products/oasis-crewneck-olive.svg",
-          "available": true
-        },
-        {
-          "id": "demo-oasis-crewneck-cream-xs",
-          "size": "XS",
-          "color": "Cream",
-          "colorHex": "#F4EFE6",
-          "price": "65.00",
-          "currency": "EUR",
-          "image": "assets/products/oasis-crewneck-cream.svg",
-          "available": true
-        },
-        {
-          "id": "demo-oasis-crewneck-cream-s",
-          "size": "S",
-          "color": "Cream",
-          "colorHex": "#F4EFE6",
-          "price": "65.00",
-          "currency": "EUR",
-          "image": "assets/products/oasis-crewneck-cream.svg",
-          "available": true
-        },
-        {
-          "id": "demo-oasis-crewneck-cream-m",
-          "size": "M",
-          "color": "Cream",
-          "colorHex": "#F4EFE6",
-          "price": "65.00",
-          "currency": "EUR",
-          "image": "assets/products/oasis-crewneck-cream.svg",
-          "available": true
-        },
-        {
-          "id": "demo-oasis-crewneck-cream-l",
-          "size": "L",
-          "color": "Cream",
-          "colorHex": "#F4EFE6",
-          "price": "65.00",
-          "currency": "EUR",
-          "image": "assets/products/oasis-crewneck-cream.svg",
-          "available": true
-        },
-        {
-          "id": "demo-oasis-crewneck-cream-xl",
-          "size": "XL",
-          "color": "Cream",
-          "colorHex": "#F4EFE6",
-          "price": "65.00",
-          "currency": "EUR",
-          "image": "assets/products/oasis-crewneck-cream.svg",
-          "available": true
-        },
-        {
-          "id": "demo-oasis-crewneck-cream-2xl",
-          "size": "2XL",
-          "color": "Cream",
-          "colorHex": "#F4EFE6",
-          "price": "65.00",
-          "currency": "EUR",
-          "image": "assets/products/oasis-crewneck-cream.svg",
+          "image": "assets/products/mockups/tee-palm-sunset.jpg",
           "available": true
         }
       ],
       "source": "demo"
     },
     {
-      "id": "fes-joggers",
-      "slug": "fes-joggers",
-      "name": "Fès Joggers",
-      "category": "bottoms",
+      "id": "tee-roses",
+      "slug": "tee-roses",
+      "name": "Beldi Roses Tee",
+      "category": "tees",
+      "tag": "",
+      "description": "Oversized tee with deep red roses and the BELDI wordmark, est. 2026.",
+      "images": [
+        "assets/products/mockups/tee-roses.jpg"
+      ],
+      "variants": [
+        {
+          "id": "demo-tee-roses-xs",
+          "size": "XS",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "35.00",
+          "currency": "EUR",
+          "image": "assets/products/mockups/tee-roses.jpg",
+          "available": true
+        },
+        {
+          "id": "demo-tee-roses-s",
+          "size": "S",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "35.00",
+          "currency": "EUR",
+          "image": "assets/products/mockups/tee-roses.jpg",
+          "available": true
+        },
+        {
+          "id": "demo-tee-roses-m",
+          "size": "M",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "35.00",
+          "currency": "EUR",
+          "image": "assets/products/mockups/tee-roses.jpg",
+          "available": true
+        },
+        {
+          "id": "demo-tee-roses-l",
+          "size": "L",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "35.00",
+          "currency": "EUR",
+          "image": "assets/products/mockups/tee-roses.jpg",
+          "available": true
+        },
+        {
+          "id": "demo-tee-roses-xl",
+          "size": "XL",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "35.00",
+          "currency": "EUR",
+          "image": "assets/products/mockups/tee-roses.jpg",
+          "available": true
+        },
+        {
+          "id": "demo-tee-roses-2xl",
+          "size": "2XL",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "35.00",
+          "currency": "EUR",
+          "image": "assets/products/mockups/tee-roses.jpg",
+          "available": true
+        }
+      ],
+      "source": "demo"
+    },
+    {
+      "id": "tee-pomegranate",
+      "slug": "tee-pomegranate",
+      "name": "Pomegranate Back Print Tee",
+      "category": "tees",
       "tag": "Limited",
-      "description": "Relaxed joggers with an embroidered palm at the hip.",
+      "description": "Clean front, statement back: ripe pomegranates with vertical BELDI lettering.",
       "images": [
-        "assets/products/fes-joggers-espresso.svg",
-        "assets/products/fes-joggers-olive.svg"
+        "assets/products/mockups/tee-pomegranate.jpg"
       ],
       "variants": [
         {
-          "id": "demo-fes-joggers-espresso-xs",
+          "id": "demo-tee-pomegranate-xs",
           "size": "XS",
-          "color": "Espresso",
-          "colorHex": "#2C221E",
-          "price": "59.00",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "35.00",
           "currency": "EUR",
-          "image": "assets/products/fes-joggers-espresso.svg",
+          "image": "assets/products/mockups/tee-pomegranate.jpg",
           "available": true
         },
         {
-          "id": "demo-fes-joggers-espresso-s",
+          "id": "demo-tee-pomegranate-s",
           "size": "S",
-          "color": "Espresso",
-          "colorHex": "#2C221E",
-          "price": "59.00",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "35.00",
           "currency": "EUR",
-          "image": "assets/products/fes-joggers-espresso.svg",
+          "image": "assets/products/mockups/tee-pomegranate.jpg",
           "available": true
         },
         {
-          "id": "demo-fes-joggers-espresso-m",
+          "id": "demo-tee-pomegranate-m",
           "size": "M",
-          "color": "Espresso",
-          "colorHex": "#2C221E",
-          "price": "59.00",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "35.00",
           "currency": "EUR",
-          "image": "assets/products/fes-joggers-espresso.svg",
+          "image": "assets/products/mockups/tee-pomegranate.jpg",
           "available": true
         },
         {
-          "id": "demo-fes-joggers-espresso-l",
+          "id": "demo-tee-pomegranate-l",
           "size": "L",
-          "color": "Espresso",
-          "colorHex": "#2C221E",
-          "price": "59.00",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "35.00",
           "currency": "EUR",
-          "image": "assets/products/fes-joggers-espresso.svg",
+          "image": "assets/products/mockups/tee-pomegranate.jpg",
           "available": true
         },
         {
-          "id": "demo-fes-joggers-espresso-xl",
+          "id": "demo-tee-pomegranate-xl",
           "size": "XL",
-          "color": "Espresso",
-          "colorHex": "#2C221E",
-          "price": "59.00",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "35.00",
           "currency": "EUR",
-          "image": "assets/products/fes-joggers-espresso.svg",
+          "image": "assets/products/mockups/tee-pomegranate.jpg",
           "available": true
         },
         {
-          "id": "demo-fes-joggers-olive-xs",
-          "size": "XS",
-          "color": "Olive",
-          "colorHex": "#5B5A3E",
-          "price": "59.00",
+          "id": "demo-tee-pomegranate-2xl",
+          "size": "2XL",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "35.00",
           "currency": "EUR",
-          "image": "assets/products/fes-joggers-olive.svg",
-          "available": true
-        },
-        {
-          "id": "demo-fes-joggers-olive-s",
-          "size": "S",
-          "color": "Olive",
-          "colorHex": "#5B5A3E",
-          "price": "59.00",
-          "currency": "EUR",
-          "image": "assets/products/fes-joggers-olive.svg",
-          "available": true
-        },
-        {
-          "id": "demo-fes-joggers-olive-m",
-          "size": "M",
-          "color": "Olive",
-          "colorHex": "#5B5A3E",
-          "price": "59.00",
-          "currency": "EUR",
-          "image": "assets/products/fes-joggers-olive.svg",
-          "available": true
-        },
-        {
-          "id": "demo-fes-joggers-olive-l",
-          "size": "L",
-          "color": "Olive",
-          "colorHex": "#5B5A3E",
-          "price": "59.00",
-          "currency": "EUR",
-          "image": "assets/products/fes-joggers-olive.svg",
-          "available": true
-        },
-        {
-          "id": "demo-fes-joggers-olive-xl",
-          "size": "XL",
-          "color": "Olive",
-          "colorHex": "#5B5A3E",
-          "price": "59.00",
-          "currency": "EUR",
-          "image": "assets/products/fes-joggers-olive.svg",
+          "image": "assets/products/mockups/tee-pomegranate.jpg",
           "available": true
         }
       ],
       "source": "demo"
     },
     {
-      "id": "palm-dad-cap",
-      "slug": "palm-dad-cap",
-      "name": "Palm Dad Cap",
-      "category": "accessories",
-      "tag": "",
-      "description": "Washed cotton cap with the palm embroidered on the front.",
+      "id": "longsleeve-rose-blackletter",
+      "slug": "longsleeve-rose-blackletter",
+      "name": "Rose Blackletter Long Sleeve",
+      "category": "longsleeves",
+      "tag": "New",
+      "description": "Long sleeve tee with a single red rose and the Beldi blackletter logo.",
       "images": [
-        "assets/products/palm-dad-cap-espresso.svg",
-        "assets/products/palm-dad-cap-sand.svg"
+        "assets/products/mockups/longsleeve-rose-blackletter.jpg"
       ],
       "variants": [
         {
-          "id": "demo-palm-dad-cap-espresso-one-size",
-          "size": "One size",
-          "color": "Espresso",
-          "colorHex": "#2C221E",
-          "price": "29.00",
+          "id": "demo-longsleeve-rose-blackletter-xs",
+          "size": "XS",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "45.00",
           "currency": "EUR",
-          "image": "assets/products/palm-dad-cap-espresso.svg",
+          "image": "assets/products/mockups/longsleeve-rose-blackletter.jpg",
           "available": true
         },
         {
-          "id": "demo-palm-dad-cap-sand-one-size",
-          "size": "One size",
-          "color": "Sand",
-          "colorHex": "#C9B391",
-          "price": "29.00",
+          "id": "demo-longsleeve-rose-blackletter-s",
+          "size": "S",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "45.00",
           "currency": "EUR",
-          "image": "assets/products/palm-dad-cap-sand.svg",
+          "image": "assets/products/mockups/longsleeve-rose-blackletter.jpg",
+          "available": true
+        },
+        {
+          "id": "demo-longsleeve-rose-blackletter-m",
+          "size": "M",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "45.00",
+          "currency": "EUR",
+          "image": "assets/products/mockups/longsleeve-rose-blackletter.jpg",
+          "available": true
+        },
+        {
+          "id": "demo-longsleeve-rose-blackletter-l",
+          "size": "L",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "45.00",
+          "currency": "EUR",
+          "image": "assets/products/mockups/longsleeve-rose-blackletter.jpg",
+          "available": true
+        },
+        {
+          "id": "demo-longsleeve-rose-blackletter-xl",
+          "size": "XL",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "45.00",
+          "currency": "EUR",
+          "image": "assets/products/mockups/longsleeve-rose-blackletter.jpg",
+          "available": true
+        },
+        {
+          "id": "demo-longsleeve-rose-blackletter-2xl",
+          "size": "2XL",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "45.00",
+          "currency": "EUR",
+          "image": "assets/products/mockups/longsleeve-rose-blackletter.jpg",
           "available": true
         }
       ],
       "source": "demo"
     },
     {
-      "id": "medina-tote",
-      "slug": "medina-tote",
-      "name": "Medina Tote",
-      "category": "accessories",
+      "id": "longsleeve-butterfly",
+      "slug": "longsleeve-butterfly",
+      "name": "Dream Bigger Butterfly Long Sleeve",
+      "category": "longsleeves",
       "tag": "",
-      "description": "Heavy canvas tote for the market, the gym or the office.",
+      "description": "Soft long sleeve with the pink butterfly and \"Dream bigger\".",
       "images": [
-        "assets/products/medina-tote-natural.svg"
+        "assets/products/mockups/longsleeve-butterfly.jpg"
       ],
       "variants": [
         {
-          "id": "demo-medina-tote-natural-one-size",
-          "size": "One size",
-          "color": "Natural",
-          "colorHex": "#E9E0CC",
-          "price": "25.00",
+          "id": "demo-longsleeve-butterfly-xs",
+          "size": "XS",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "45.00",
           "currency": "EUR",
-          "image": "assets/products/medina-tote-natural.svg",
+          "image": "assets/products/mockups/longsleeve-butterfly.jpg",
+          "available": true
+        },
+        {
+          "id": "demo-longsleeve-butterfly-s",
+          "size": "S",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "45.00",
+          "currency": "EUR",
+          "image": "assets/products/mockups/longsleeve-butterfly.jpg",
+          "available": true
+        },
+        {
+          "id": "demo-longsleeve-butterfly-m",
+          "size": "M",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "45.00",
+          "currency": "EUR",
+          "image": "assets/products/mockups/longsleeve-butterfly.jpg",
+          "available": true
+        },
+        {
+          "id": "demo-longsleeve-butterfly-l",
+          "size": "L",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "45.00",
+          "currency": "EUR",
+          "image": "assets/products/mockups/longsleeve-butterfly.jpg",
+          "available": true
+        },
+        {
+          "id": "demo-longsleeve-butterfly-xl",
+          "size": "XL",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "45.00",
+          "currency": "EUR",
+          "image": "assets/products/mockups/longsleeve-butterfly.jpg",
+          "available": true
+        },
+        {
+          "id": "demo-longsleeve-butterfly-2xl",
+          "size": "2XL",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "45.00",
+          "currency": "EUR",
+          "image": "assets/products/mockups/longsleeve-butterfly.jpg",
+          "available": true
+        }
+      ],
+      "source": "demo"
+    },
+    {
+      "id": "hoodie-roots-culture",
+      "slug": "hoodie-roots-culture",
+      "name": "Roots Culture Heritage Hoodie",
+      "category": "hoodies",
+      "tag": "Essential",
+      "description": "Heavyweight hoodie with the BELDI varsity arch and \"Roots · Culture · Heritage\".",
+      "images": [
+        "assets/products/mockups/hoodie-roots-culture.jpg"
+      ],
+      "variants": [
+        {
+          "id": "demo-hoodie-roots-culture-xs",
+          "size": "XS",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "69.00",
+          "currency": "EUR",
+          "image": "assets/products/mockups/hoodie-roots-culture.jpg",
+          "available": true
+        },
+        {
+          "id": "demo-hoodie-roots-culture-s",
+          "size": "S",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "69.00",
+          "currency": "EUR",
+          "image": "assets/products/mockups/hoodie-roots-culture.jpg",
+          "available": true
+        },
+        {
+          "id": "demo-hoodie-roots-culture-m",
+          "size": "M",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "69.00",
+          "currency": "EUR",
+          "image": "assets/products/mockups/hoodie-roots-culture.jpg",
+          "available": true
+        },
+        {
+          "id": "demo-hoodie-roots-culture-l",
+          "size": "L",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "69.00",
+          "currency": "EUR",
+          "image": "assets/products/mockups/hoodie-roots-culture.jpg",
+          "available": true
+        },
+        {
+          "id": "demo-hoodie-roots-culture-xl",
+          "size": "XL",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "69.00",
+          "currency": "EUR",
+          "image": "assets/products/mockups/hoodie-roots-culture.jpg",
+          "available": true
+        },
+        {
+          "id": "demo-hoodie-roots-culture-2xl",
+          "size": "2XL",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "69.00",
+          "currency": "EUR",
+          "image": "assets/products/mockups/hoodie-roots-culture.jpg",
+          "available": true
+        }
+      ],
+      "source": "demo"
+    },
+    {
+      "id": "hoodie-graffiti",
+      "slug": "hoodie-graffiti",
+      "name": "Graffiti BELDI Hoodie",
+      "category": "hoodies",
+      "tag": "New",
+      "description": "Street-ready hoodie with the dripping graffiti BELDI print.",
+      "images": [
+        "assets/products/mockups/hoodie-graffiti.jpg"
+      ],
+      "variants": [
+        {
+          "id": "demo-hoodie-graffiti-xs",
+          "size": "XS",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "69.00",
+          "currency": "EUR",
+          "image": "assets/products/mockups/hoodie-graffiti.jpg",
+          "available": true
+        },
+        {
+          "id": "demo-hoodie-graffiti-s",
+          "size": "S",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "69.00",
+          "currency": "EUR",
+          "image": "assets/products/mockups/hoodie-graffiti.jpg",
+          "available": true
+        },
+        {
+          "id": "demo-hoodie-graffiti-m",
+          "size": "M",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "69.00",
+          "currency": "EUR",
+          "image": "assets/products/mockups/hoodie-graffiti.jpg",
+          "available": true
+        },
+        {
+          "id": "demo-hoodie-graffiti-l",
+          "size": "L",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "69.00",
+          "currency": "EUR",
+          "image": "assets/products/mockups/hoodie-graffiti.jpg",
+          "available": true
+        },
+        {
+          "id": "demo-hoodie-graffiti-xl",
+          "size": "XL",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "69.00",
+          "currency": "EUR",
+          "image": "assets/products/mockups/hoodie-graffiti.jpg",
+          "available": true
+        },
+        {
+          "id": "demo-hoodie-graffiti-2xl",
+          "size": "2XL",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "69.00",
+          "currency": "EUR",
+          "image": "assets/products/mockups/hoodie-graffiti.jpg",
+          "available": true
+        }
+      ],
+      "source": "demo"
+    },
+    {
+      "id": "hoodie-beldi-x3",
+      "slug": "hoodie-beldi-x3",
+      "name": "BELDI ×3 Hoodie",
+      "category": "hoodies",
+      "tag": "",
+      "description": "Warm-toned BELDI BELDI BELDI print on a brushed-fleece hoodie.",
+      "images": [
+        "assets/products/mockups/hoodie-beldi-x3.jpg"
+      ],
+      "variants": [
+        {
+          "id": "demo-hoodie-beldi-x3-xs",
+          "size": "XS",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "69.00",
+          "currency": "EUR",
+          "image": "assets/products/mockups/hoodie-beldi-x3.jpg",
+          "available": true
+        },
+        {
+          "id": "demo-hoodie-beldi-x3-s",
+          "size": "S",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "69.00",
+          "currency": "EUR",
+          "image": "assets/products/mockups/hoodie-beldi-x3.jpg",
+          "available": true
+        },
+        {
+          "id": "demo-hoodie-beldi-x3-m",
+          "size": "M",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "69.00",
+          "currency": "EUR",
+          "image": "assets/products/mockups/hoodie-beldi-x3.jpg",
+          "available": true
+        },
+        {
+          "id": "demo-hoodie-beldi-x3-l",
+          "size": "L",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "69.00",
+          "currency": "EUR",
+          "image": "assets/products/mockups/hoodie-beldi-x3.jpg",
+          "available": true
+        },
+        {
+          "id": "demo-hoodie-beldi-x3-xl",
+          "size": "XL",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "69.00",
+          "currency": "EUR",
+          "image": "assets/products/mockups/hoodie-beldi-x3.jpg",
+          "available": true
+        },
+        {
+          "id": "demo-hoodie-beldi-x3-2xl",
+          "size": "2XL",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "69.00",
+          "currency": "EUR",
+          "image": "assets/products/mockups/hoodie-beldi-x3.jpg",
+          "available": true
+        }
+      ],
+      "source": "demo"
+    },
+    {
+      "id": "cap-arabic",
+      "slug": "cap-arabic",
+      "name": "بلدي Snapback",
+      "category": "caps",
+      "tag": "New",
+      "description": "Flat-brim snapback with بلدي in Arabic script and BELDI underneath.",
+      "images": [
+        "assets/products/mockups/cap-arabic.jpg"
+      ],
+      "variants": [
+        {
+          "id": "demo-cap-arabic-one-size",
+          "size": "One size",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "29.00",
+          "currency": "EUR",
+          "image": "assets/products/mockups/cap-arabic.jpg",
+          "available": true
+        }
+      ],
+      "source": "demo"
+    },
+    {
+      "id": "cap-red-brush",
+      "slug": "cap-red-brush",
+      "name": "Red Brush Trucker Cap",
+      "category": "caps",
+      "tag": "",
+      "description": "Black and white trucker cap with the red brush-script Beldi logo.",
+      "images": [
+        "assets/products/mockups/cap-red-brush.jpg"
+      ],
+      "variants": [
+        {
+          "id": "demo-cap-red-brush-one-size",
+          "size": "One size",
+          "color": "White",
+          "colorHex": "#F6F5F2",
+          "price": "29.00",
+          "currency": "EUR",
+          "image": "assets/products/mockups/cap-red-brush.jpg",
           "available": true
         }
       ],

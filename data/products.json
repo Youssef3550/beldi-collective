@@ -15,16 +15,6 @@
       ],
       "variants": [
         {
-          "id": "demo-tee-beldi-26-xs",
-          "size": "XS",
-          "color": "White",
-          "colorHex": "#F6F5F2",
-          "price": "35.00",
-          "currency": "EUR",
-          "image": "assets/products/mockups/tee-beldi-26.jpg",
-          "available": true
-        },
-        {
           "id": "demo-tee-beldi-26-s",
           "size": "S",
           "color": "White",
@@ -88,16 +78,6 @@
         "assets/products/mockups/tee-palm-sunset.jpg"
       ],
       "variants": [
-        {
-          "id": "demo-tee-palm-sunset-xs",
-          "size": "XS",
-          "color": "White",
-          "colorHex": "#F6F5F2",
-          "price": "35.00",
-          "currency": "EUR",
-          "image": "assets/products/mockups/tee-palm-sunset.jpg",
-          "available": true
-        },
         {
           "id": "demo-tee-palm-sunset-s",
           "size": "S",
@@ -163,16 +143,6 @@
       ],
       "variants": [
         {
-          "id": "demo-tee-roses-xs",
-          "size": "XS",
-          "color": "White",
-          "colorHex": "#F6F5F2",
-          "price": "35.00",
-          "currency": "EUR",
-          "image": "assets/products/mockups/tee-roses.jpg",
-          "available": true
-        },
-        {
           "id": "demo-tee-roses-s",
           "size": "S",
           "color": "White",
@@ -236,16 +206,6 @@
         "assets/products/mockups/tee-pomegranate.jpg"
       ],
       "variants": [
-        {
-          "id": "demo-tee-pomegranate-xs",
-          "size": "XS",
-          "color": "White",
-          "colorHex": "#F6F5F2",
-          "price": "35.00",
-          "currency": "EUR",
-          "image": "assets/products/mockups/tee-pomegranate.jpg",
-          "available": true
-        },
         {
           "id": "demo-tee-pomegranate-s",
           "size": "S",
@@ -311,16 +271,6 @@
       ],
       "variants": [
         {
-          "id": "demo-longsleeve-rose-blackletter-xs",
-          "size": "XS",
-          "color": "White",
-          "colorHex": "#F6F5F2",
-          "price": "45.00",
-          "currency": "EUR",
-          "image": "assets/products/mockups/longsleeve-rose-blackletter.jpg",
-          "available": true
-        },
-        {
           "id": "demo-longsleeve-rose-blackletter-s",
           "size": "S",
           "color": "White",
@@ -384,16 +334,6 @@
         "assets/products/mockups/longsleeve-butterfly.jpg"
       ],
       "variants": [
-        {
-          "id": "demo-longsleeve-butterfly-xs",
-          "size": "XS",
-          "color": "White",
-          "colorHex": "#F6F5F2",
-          "price": "45.00",
-          "currency": "EUR",
-          "image": "assets/products/mockups/longsleeve-butterfly.jpg",
-          "available": true
-        },
         {
           "id": "demo-longsleeve-butterfly-s",
           "size": "S",
@@ -459,16 +399,6 @@
       ],
       "variants": [
         {
-          "id": "demo-hoodie-roots-culture-xs",
-          "size": "XS",
-          "color": "White",
-          "colorHex": "#F6F5F2",
-          "price": "69.00",
-          "currency": "EUR",
-          "image": "assets/products/mockups/hoodie-roots-culture.jpg",
-          "available": true
-        },
-        {
           "id": "demo-hoodie-roots-culture-s",
           "size": "S",
           "color": "White",
@@ -533,16 +463,6 @@
       ],
       "variants": [
         {
-          "id": "demo-hoodie-graffiti-xs",
-          "size": "XS",
-          "color": "White",
-          "colorHex": "#F6F5F2",
-          "price": "69.00",
-          "currency": "EUR",
-          "image": "assets/products/mockups/hoodie-graffiti.jpg",
-          "available": true
-        },
-        {
           "id": "demo-hoodie-graffiti-s",
           "size": "S",
           "color": "White",
@@ -606,16 +526,6 @@
         "assets/products/mockups/hoodie-beldi-x3.jpg"
       ],
       "variants": [
-        {
-          "id": "demo-hoodie-beldi-x3-xs",
-          "size": "XS",
-          "color": "White",
-          "colorHex": "#F6F5F2",
-          "price": "69.00",
-          "currency": "EUR",
-          "image": "assets/products/mockups/hoodie-beldi-x3.jpg",
-          "available": true
-        },
         {
           "id": "demo-hoodie-beldi-x3-s",
           "size": "S",

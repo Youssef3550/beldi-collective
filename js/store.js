@@ -188,6 +188,7 @@
     $all('[data-cfg]').forEach(function (el) {
       var k = el.dataset.cfg, v = CFG[k];
       if (k === 'freeShippingThreshold') v = money(v).replace(/[.,]00(?=\D*$)/, '');
+      if (k === 'shippingFee') v = money(v);
       if (k === 'dropDateText') v = dropDateText();
       if (v != null) el.textContent = v;
     });

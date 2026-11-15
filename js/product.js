@@ -31,6 +31,7 @@
       document.getElementById('p-tag').textContent = p.tag || 'Collection 01';
       document.getElementById('p-desc').textContent = p.description || '';
       document.getElementById('p-details').textContent = p.details || p.description || '';
+      var sb = document.getElementById('size-body'); if (sb && window.BELDI_SIZE_TABLE) sb.innerHTML = window.BELDI_SIZE_TABLE(p.category) + '<p style="margin-bottom:0;font-size:12px"><a href="size-guide.html">All size charts</a></p>';
       setJsonLd(p, colors);
 
       var mainImg = document.getElementById('main-img');

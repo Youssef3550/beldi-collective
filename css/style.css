@@ -281,3 +281,12 @@ body.cart-open .drawer-backdrop { opacity: 1; pointer-events: auto; }
 }
 
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; scroll-behavior: auto !important; } }
+
+/* Help pages (returns, shipping, size guide) */
+.legal h2 { margin: 40px 0 12px; }
+.legal h2:first-child { margin-top: 8px; }
+.legal p, .legal ul { margin: 0 0 16px; }
+.legal ul { padding-left: 20px; }
+.legal li { margin-bottom: 8px; }
+.legal a, .acc-body a, .trust a { text-decoration: underline; text-underline-offset: 3px; }
+.legal > * { max-width: 720px; }

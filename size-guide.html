@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Size guide · Beldi Collective</title>
+  <meta name="description" content="Beldi Collective size guide: exact garment measurements in cm for tees, long sleeves, hoodies and caps.">
+  <link rel="icon" href="assets/palm.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=20261115a">
+</head>
+<body>
+  <a class="sr-only" href="#main">Skip to content</a>
+  <div class="announce"><a href="index.html#early">Collection 01 drops <span data-cfg="dropDateText"></span> · Waitlist shops 24h early →</a></div>
+
+  <header class="site-header">
+    <div class="wrap header-row">
+      <div style="display:flex;align-items:center">
+        <button class="icon-btn menu-btn" data-menu aria-label="Menu" aria-expanded="false" aria-controls="main-nav"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+        <nav class="main-nav" id="main-nav" aria-label="Main">
+          <a href="index.html">Home</a>
+          <a href="shop.html">Shop</a>
+          <a href="index.html#look">Build the look</a>
+          <a href="index.html#story">Our story</a>
+        </nav>
+      </div>
+      <a class="brand" href="index.html" aria-label="Beldi Collective home"><span class="brand-word">BELDI<span>*</span></span><span class="brand-sub">collective</span></a>
+      <div class="header-actions">
+        <a class="icon-btn hide-sm" href="shop.html" aria-label="Search the shop"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></a>
+        <button class="bag-btn" data-open-cart aria-label="Open bag"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 8h14l-1 13H6L5 8z"/><path d="M9 8V6a3 3 0 016 0v2"/></svg>Bag (<span data-cart-count>0</span>)</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="wrap page-head">
+      <p class="eyebrow">Help</p>
+      <h1 class="h1" style="font-size:clamp(40px,4.6vw,64px)">Size guide</h1>
+      <p class="lead" style="max-width:560px">Exact garment measurements in cm, laid flat. Pieces are made to order, so check before you buy.</p>
+    </div>
+    <div class="wrap legal" style="padding-bottom:104px" id="charts"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-top">
+      <div class="footer-brand"><img src="assets/logo-cream.png" alt="Beldi Collective"><p>Clothing with Moroccan roots, made for everyday life.</p></div>
+      <nav class="footer-col" aria-labelledby="f-shop"><h2 id="f-shop">Shop</h2><a href="shop.html">All products</a><a href="shop.html?c=tees">T-shirts</a><a href="shop.html?c=longsleeves">Long sleeves</a><a href="shop.html?c=hoodies">Hoodies</a><a href="shop.html?c=caps">Caps</a></nav>
+      <nav class="footer-col" aria-labelledby="f-help"><h2 id="f-help">Help</h2><a href="shipping.html">Shipping</a><a href="returns.html">Returns</a><a href="size-guide.html">Size guide</a><a href="mailto:hello@example.com">Contact</a></nav>
+      <nav class="footer-col" aria-labelledby="f-follow"><h2 id="f-follow">Follow</h2><a href="#">Instagram</a><a href="#">TikTok</a></nav>
+    </div>
+    <div class="wrap footer-bottom"><span>© <span data-year>2026</span> Beldi Collective</span><span>Bancontact · Visa · Mastercard · PayPal · Apple Pay</span></div>
+  </footer>
+
+  <script src="js/config.js?v=20261115a"></script>
+  <script src="js/store.js?v=20261115a"></script>
+  <script src="js/sizecharts.js?v=20261115a"></script>
+  <script>(function(){var T={tees:"T-shirts",longsleeves:"Long sleeves",hoodies:"Hoodies",caps:"Caps"},el=document.getElementById("charts");el.innerHTML=Object.keys(T).map(function(k){return '<section style="margin-bottom:48px" id="'+k+'"><h2 class="h3">'+T[k]+'</h2><div class="body">'+window.BELDI_SIZE_TABLE(k)+'</div></section>';}).join("");})();</script>
+</body>
+</html>

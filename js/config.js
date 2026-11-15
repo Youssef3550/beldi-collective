@@ -9,7 +9,8 @@ window.BELDI_CONFIG = {
 
   // Shop rules shown across the site (EUR).
   freeShippingThreshold: 75,
-  returnsDays: 30,
+  returnsDays: 14,        // EU right of withdrawal (minimum)
+  shippingFee: 4.95,      // flat shipping below the free-shipping threshold
   firstOrderDiscount: 10,  // % off the first order for waitlist sign-ups
   lookBundleDiscount: 10,  // % off when the complete look is bought
 

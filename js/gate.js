@@ -14,7 +14,7 @@
  */
 (function () {
   var LOCKED = true;
-  var HASH = 'a25b76e3110d3eedd43cc94e264cc2a90abda133ab48ac99d2792e00c49bfd3c';
+  var HASH = '82846d2bc31a2dd227e660e4a92b6a8bad6176d885e2021a15edb633ddc5ce00';
   var KEY = 'beldi_access';
 
   try { if (/[?&]lock\b/.test(location.search)) localStorage.removeItem(KEY); } catch (e) { /* ignore */ }
